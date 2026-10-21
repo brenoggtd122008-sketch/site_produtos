@@ -1,0 +1,95 @@
+.produtos {
+    background-color: rgba(100, 100, 100, 0.15);
+
+    max-width: 1520px;
+    width: 1520px;
+
+    border: 1px solid gray;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.produto {
+    width: 140px;
+    height: 305px;
+
+    margin: 5px;
+    margin-top: 15px;
+
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    color: black;
+    text-decoration: none;
+
+    transition: .5s ease;
+}
+
+.produto:hover {
+    transform: translateY(-8px);
+}
+
+.produto p {
+    margin: 10px;
+}
+
+.produto hr {
+    width: 120px;
+    margin-top: 10px;
+}
+
+#desconto {
+    padding: 5px;
+    margin: auto;
+    width: max-content;
+    border-radius: 5px;
+
+    color: white;
+    background-color: blue;
+}
+
+#descontado {
+    font-size: smaller;
+    padding: 3px;
+
+    color: rgb(30, 30, 30);
+}
+
+#descontado span {
+    text-decoration: line-through;
+}
+
+.adicionar {
+    width: 140px;
+    height: 305px;
+
+    margin: 5px;
+    margin-top: 15px;
+
+    text-align: center;
+    border: 1px solid black;
+    background-color: gray;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: .5s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adicionar:hover {
+    transform: translateY(-8px);
+}

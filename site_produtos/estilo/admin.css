@@ -1,0 +1,33 @@
+table {
+    margin-left: 200px;
+    text-align: center;
+
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table a {
+    color: black;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+thead h2 {
+    margin: 0;
+}
+
+th {
+    background-color: #b3b3b3b1;
+}
+
+td {
+    font-size: large;
+}
+
+#produtos {
+    width: 1000px;
+}

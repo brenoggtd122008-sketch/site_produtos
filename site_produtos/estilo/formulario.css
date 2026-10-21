@@ -1,0 +1,47 @@
+form {
+    background-color: rgba(128, 128, 128, 0.3);
+
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 15px;
+
+    margin: auto;
+    text-align: center;
+}
+
+form h2 {
+    margin: 0;
+}
+
+form input {
+    outline: none;
+
+    padding: 10px;
+    font-size: large;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    width: 250px;
+}
+
+form button {
+    padding: 10px;
+    font-size: large;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#arquivo {
+    background-color: rgba(128, 128, 128, 0.6);
+
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+
+    font-size: large;
+    font-weight: bold;
+
+    text-decoration: underline;
+}
